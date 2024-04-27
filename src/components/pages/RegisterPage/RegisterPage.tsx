@@ -1,11 +1,11 @@
 import React from 'react';
-import Register from "src/components/template/authorizationMain/Register/Register";
+import Main from "src/components/template/main/Main";
 
 const RegisterPage = () => {
     return (
-        <div>
-            <Register/>
-        </div>
+        <Main>
+
+        </Main>
     );
 };
 

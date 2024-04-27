@@ -1,14 +1,13 @@
 import React from 'react';
-import Header from "src/components/organism/header/Header";
-import LogIn from "src/components/template/authorizationMain/LogIn/LogIn";
+import Main from "src/components/template/main/Main";
 
 
 
 const LogInPage = () => {
     return (
-        <div>
-            <LogIn/>
-        </div>
+        <Main>
+
+        </Main>
     );
 };
 
