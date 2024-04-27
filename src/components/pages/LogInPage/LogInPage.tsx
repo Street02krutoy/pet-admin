@@ -9,7 +9,7 @@ import LogInForm from "src/components/organism/authorizationMainForm/LogInForm/L
 const LogInPage = () => {
     return (
         <Main>
-            <div>
+            <div className="mt-40">
                 <LogInForm/>
             </div>
         </Main>

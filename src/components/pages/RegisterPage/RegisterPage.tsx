@@ -5,7 +5,9 @@ import RegisterForm from "src/components/organism/authorizationMainForm/Register
 const RegisterPage = () => {
     return (
         <Main>
+            <div className="mt-36">
             <RegisterForm/>
+            </div>
         </Main>
     );
 };
