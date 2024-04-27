@@ -1,6 +1,7 @@
 import React from 'react';
 import MedCard from "src/components/molecule/MedCard/MedCard";
 import Recomendations from "src/components/molecule/recomendations/Recomendations";
+import Calendar from "src/components/molecule/calendar/Calendar";
 
 const MainForm = () => {
     return (

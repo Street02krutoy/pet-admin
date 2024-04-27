@@ -7,6 +7,7 @@ import DopField from "src/components/atoms/textField/InfoPet/petField/dopField/D
 import NameField from "src/components/atoms/textField/InfoPet/ownerField/nameField/NameField";
 import AdressField from "src/components/atoms/textField/InfoPet/ownerField/adressField/AdressField";
 import PhoneField from "src/components/atoms/textField/InfoPet/ownerField/phoneField/PhoneField";
+import Calendar from "src/components/molecule/calendar/Calendar";
 
 const MedCard = () => {
     return (
@@ -27,11 +28,9 @@ const MedCard = () => {
                 <div>
                     <h1 className="text-2xl mt-10">О владельце</h1>
                     <NameField/>
-                    <AdressField/>
                     <PhoneField/>
                 </div>
             </div>
-
         </div>
     );
 };
