@@ -1,8 +1,8 @@
 import React from 'react';
 
-const SendMessageButtonForm = ({children}:any) => {
+const SendMessageButtonForm = ({onClick, children}:any) => {
     return (
-        <button className="w-30 bg-violet hover:bg-violet
+        <button onClick={onClick} className="w-30 bg-violet hover:bg-violet
         text-white font-bold py-2 px-4 border border-black hover:border-transparent rounded-xl">
             {children}
         </button>
