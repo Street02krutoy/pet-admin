@@ -20,11 +20,15 @@ const RegisterForm = () => {
                     <MailField/>
                     <div className="mt-5 text-center">
                         <AuthorizationButton/>
+                        <div className="flex gap-2 pl-28 pt-2">
+                            <h1 className="text-white">If you have account</h1>
+                            <a href="/" className="text-blue-600">Log In</a>
+                        </div>
                     </div>
                 </div>
             </form>
         </div>
-);
+    );
 };
 
 export default RegisterForm;

@@ -2,8 +2,7 @@ import React from 'react';
 
 const AvatarsListForm = () => {
     return (
-        <div>
-            
+        <div className="bg-gray-500 p-5 max-w-1 rounded">
         </div>
     );
 };

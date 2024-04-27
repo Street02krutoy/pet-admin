@@ -13,6 +13,10 @@ const LogInForm = () => {
                     <PasswordField/>
                     <div className="mt-2 text-center">
                         <AuthorizationButton/>
+                    <div className="flex gap-2 pl-16 pt-2">
+                        <h1 className="text-white">If you don’t have account</h1>
+                        <a href="/regist" className="text-blue-600">Registration</a>
+                    </div>
                     </div>
                 </div>
             </form>

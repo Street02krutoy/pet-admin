@@ -6,7 +6,7 @@ const Main = ({children}:any) => {
     return (
         <div>
             <Header/>
-            <main className="mt-40">
+            <main className="mt-24">
                 {children}
             </main>
         </div>
