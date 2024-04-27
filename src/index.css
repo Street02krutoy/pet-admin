@@ -1,17 +1,17 @@
-body {
-  background-color: rgb(114, 105, 105);
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root,
+#root,
+#docs-root{
+  --light-violet: rgba(103, 58, 183, 0.15);
+  --dark-violet: rgba(103, 58, 183, 0.85);
+  --simple-violet: rgba(103, 58, 183, 0.5);
+  --violet: #673AB7;
+  --super-dark-violet: rgba(31, 0, 87, 0.6);
+}
+
+input::file-selector-button{
+  display: none;
+}
