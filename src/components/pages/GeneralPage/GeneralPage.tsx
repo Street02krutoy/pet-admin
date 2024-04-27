@@ -1,15 +1,16 @@
 import React from 'react';
-import Header from 'src/components/organism/header/Header';
 import Main from "src/components/template/main/Main";
-import MessageField from "src/components/atoms/textField/Message/MessageField";
 import ListPets from "src/components/organism/ListPets/ListPets";
-import AvatarsListForm from "src/components/atoms/avatarsListForm/AvatarsListForm";
+import MedCard from "src/components/molecule/MedCard/MedCard";
+import MainForm from "src/components/organism/mainForm/MainForm";
 
 const GeneralPage = () => {
     return (
         <Main>
-            <div>
+            <div className="flex gap-5">
                 <ListPets/>
+                <MainForm/>
+
             </div>
         </Main>
     );
