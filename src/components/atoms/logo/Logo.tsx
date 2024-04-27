@@ -5,7 +5,7 @@ const Logo = () => {
     return (
         <div className='w-14 h-auto flex place-items-center gap-1'>
             <img className='transition object-cover h-full w-full' src={logo} alt="hz"/>
-            <h4 className='font-bold text-xl bg-gradient-to-r from-dark-violet to-violet text-transparent bg-clip-text'>Мой питомец</h4>
+            <h4 className='font-bold text-xl bg-gradient-to-r from-black to-black text-transparent bg-clip-text'>Мой питомец</h4>
         </div>
     );
 };
