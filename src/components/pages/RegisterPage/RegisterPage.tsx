@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from '../../organism/header/Header';
+import Register from "src/components/template/authorizationMain/Register/Register";
 
 const RegisterPage = () => {
     return (
         <div>
+            <Register/>
         </div>
     );
 };
