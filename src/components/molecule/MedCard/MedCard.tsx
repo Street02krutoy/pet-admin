@@ -11,8 +11,13 @@ import SendMessageButtonForm from "src/components/atoms/buttonForm/SendMessageBu
 import Weight from "src/components/atoms/textField/InfoPet/petField/weight/Weight";
 import Height from "src/components/atoms/textField/InfoPet/petField/height/Height";
 import RadioButton from "src/components/atoms/checkbox/radioButton/RadioButton";
+import axios from "axios";
 
 const MedCard = () => {
+
+    const onClick = () =>{
+        alert("Рекомендация доставлена пользователю!")
+    }
     return (
         <div className="pt-5 ml-5 mr-5">
             <div className="flex gap-3 ">
@@ -33,7 +38,7 @@ const MedCard = () => {
                 </div>
                 <div>
                     <Recommends/>
-                    <SendMessageButtonForm>Send recommend</SendMessageButtonForm>
+                    <SendMessageButtonForm onClick={onClick}>Send recommend</SendMessageButtonForm>
                 </div>
                 <div>
                     <h1 className="text-2xl mt-10">О владельце</h1>
