@@ -1,16 +1,15 @@
 import React, {useState} from 'react';
 import axios from "axios";
-import {redirect, useNavigate} from "react-router-dom";
-import GeneralPage from "src/components/pages/GeneralPage/GeneralPage";
+import {redirect} from "react-router-dom";
 
 const LogInForm = () => {
     const [data, setData] = useState({name:"", password:""})
+
     const sendHandler = () =>{
         console.log(data)
         axios.post("http://127.0.0.1:8080/api/login/clinic", data)
             .then(res => localStorage.setItem("token", res["data"]["token"]))
             .catch(err => console.log(err))
-        redirect("/general");
     }
     return (
         <div className="bg-super-dark-violet border border-black rounded-2xl p-20 mx-96">
