@@ -20,7 +20,7 @@ const MedCard = () => {
             <div className="flex gap-3 ">
                 <AvatarMedForm/>
                 <div className="grid md:grid-cols-1">
-                    <h1 className="text-black">Lorem ipsum</h1>
+                    <h1 className="text-black">Шарик</h1>
                     <DateBurn/>
                 </div>
             </div>
