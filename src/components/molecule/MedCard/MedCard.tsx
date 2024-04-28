@@ -5,9 +5,7 @@ import PorodaField from "src/components/atoms/textField/InfoPet/petField/porodaF
 import OkrasField from "src/components/atoms/textField/InfoPet/petField/okrasField/OkrasField";
 import DopField from "src/components/atoms/textField/InfoPet/petField/dopField/DopField";
 import NameField from "src/components/atoms/textField/InfoPet/ownerField/nameField/NameField";
-import AdressField from "src/components/atoms/textField/InfoPet/ownerField/adressField/AdressField";
 import PhoneField from "src/components/atoms/textField/InfoPet/ownerField/phoneField/PhoneField";
-import Calendar from "src/components/molecule/calendar/Calendar";
 import Recommends from "src/components/atoms/textField/Recomends/Recomends";
 import SendMessageButtonForm from "src/components/atoms/buttonForm/SendMessageButton/SendMessageButtonForm";
 import Weight from "src/components/atoms/textField/InfoPet/petField/weight/Weight";
