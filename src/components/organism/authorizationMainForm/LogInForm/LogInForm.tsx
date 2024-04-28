@@ -10,6 +10,7 @@ const LogInForm = () => {
         axios.post("http://127.0.0.1:8080/api/login/clinic", data)
             .then(res => localStorage.setItem("token", res["data"]["token"]))
             .catch(err => console.log(err))
+        window.location.replace("/general")
     }
     return (
         <div className="bg-super-dark-violet border border-black rounded-2xl p-20 mx-96">

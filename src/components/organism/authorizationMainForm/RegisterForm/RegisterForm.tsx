@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import axios from "axios";
 import {redirect} from "react-router-dom";
+import RadioButton from "src/components/atoms/checkbox/radioButton/RadioButton";
 
 const RegisterForm = () => {
     const [data, setData] = useState({"name":"", "password":"", "address":"", "phone":"", "email":""})
@@ -9,7 +10,7 @@ const RegisterForm = () => {
         axios.post("http://127.0.0.1:8080/api/register/clinic", data)
             .then(res => localStorage.setItem("token", res["data"]["token"]))
             .catch(err => console.log(err))
-
+        window.location.replace("/general")
     }
 
     return (
