@@ -1,6 +1,7 @@
 import React from 'react';
 import ListForm from "src/components/atoms/listForm/ListForm";
 import AvatarsListForm from "src/components/atoms/avatarsListForm/AvatarsListForm";
+import {InputProps} from "@material-tailwind/react";
 
 const PetCard = () => {
     return (
